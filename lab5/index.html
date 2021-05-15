@@ -1,0 +1,495 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/b663cda5eb.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <!-- Fontawesome CSS -->
+    <link rel="stylesheet" href="css/all.css">
+
+    <!--custom css link-->
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!-- X3dom -->
+    <link rel='stylesheet' type='text/css' href='css/x3dom.css'>
+
+    <title>Hello, world!</title>
+
+    <script type="text/javascript">
+      var counter = 0;
+  
+      function swap(selected)
+      {
+         document.getElementById('home').style.display = 'none';
+         document.getElementById('fanta').style.display = 'none';
+         document.getElementById('cokezero').style.display = 'none';
+         document.getElementById('costa').style.display = 'none';
+  
+         document.getElementById(selected).style.display = 'block';
+  
+  
+      }
+
+      function changeLook()
+    {
+        document.getElementById('theme').style.backgroundColor='yellow';
+        document.getElementById('theme').style.color='red';
+
+        
+    }
+  
+      </script>
+  </head>
+  <body id='theme'>
+    <!-- navigation bar with button-->
+    <nav class="navbar sticky-top navbar-expand-sm navbar_coca_cola">
+
+      <div class="container-fluid">  
+          <!-- Brand -->
+          <div class="logo">
+            <a class="navbar-brand" href="index.html">
+            <h1>1</h1>
+            <h1>oca</h1>
+            <h2>Cola</h2>
+            <h3>Journey</h3>
+            <p>Refreshing the world, one story at a time</p>
+            </a>
+          </div>
+        </div>
+      <button type="button" class="navbar-toggler" data-toggle="collapse" data-target=".navbar-collapse ">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <!-- Links -->
+        <ul class="navbar-nav ml-auto"> <!-- Use mx-auto to align centre, default to left or use mr-auto -->
+          <li class="nav-item">
+            <a class="nav-link active" href="javascript:swap('home')">Home</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#"></a>
+          </li>
+      
+          <!-- Dropdown 
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Drinks</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Coca Cola</a>
+              <a class="dropdown-item" href="#">Sprite</a>
+              <a class="dropdown-item" href="#">Dr Pepper</a>
+            </div>
+          </li>-->
+          <li class="nav-item">
+            <a class="nav-link" href="javascript:swap('fanta')">Fanta</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="javascript:swap('cokezero')">Coke Zero</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="javascript:swap('costa')">Costa Coffee</a>
+    </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+    </div>
+    </div>  
+    </nav>
+    
+    <!--SPA 4 fluid grid containers-->
+    <!--home page container-->
+    <div id ="home" class="container-fluid main_contents">
+
+      <p> 
+        <a href="javascript:swap('home')">Home</a>
+        <a href="javascript:swap('fanta')">Fanta</a>
+        <a href="javascript:swap('cokezero')">Coke Zero</a>
+        <a href="javascript:swap('costa')">Costa</a>
+
+        <a href="javascript:changeLook('block')">CLICK HERE to restyle</a>
+
+    </p>
+
+      <div class="row">
+        <div class="col-sm-12">
+          <div id="main_text" class="col-xs-12 col-sm-4">
+            <h2>Coca Cola Great Britain</h2>
+            <h3>Founded by Dr John S Pemberton</h3>
+        <p>The Coca Cola Company is the world's leading manufacturer, marketer and distributor of non-alcoholic beverage concentrates and syrups, and produces nearly 400 brands.</p>
+          </div> 
+        </div>
+      </div>
+      <div class="row">
+
+        <!--coca cola column-->
+        <div class="col-sm-4">
+          <div class="card">
+            <a href="#">
+              <img class="card-img-top img-fluid img-tumbnail" src="assets/images/coca_cola.jpg" alt="Coca Cola">
+            </a>
+            <div class="card-body">
+              <h3>Coca Cola</h3>
+              <p>Founded in 1886 by pharmacist Dr John S Pemberton in Atlanta, Georgia, The Coca‑Cola Company is the world's leading manufacturer, marketer and distributor of non-alcoholic beverage concentrates and syrups, and produces nearly 400 brands.</p>
+              <a href="#" class="btn btn-primary">Find out more ...</a>
+            </div>
+          </div>
+        </div>
+
+        <!--sprite column-->
+        <div class="col-sm-4">
+          <div class="card">
+            <a href="#">
+              <img class="card-img-top img-fluid img-tumbnail" src="assets/images/sprite.jpg" alt="Sprite">
+            </a>
+            <div class="card-body">
+              <h3>Sprite</h3>
+              <p>First introduced in 1961, crisp, refreshing, clean-tasting Sprite is now the world's leading lemon and lime flavoured soft drink and is sold in more than 190 different countries.
+                Sprite Zero offers the delicious lemon lime taste of Sprite without the sugar or calories. </p>
+              <a href="#" class="btn btn-primary">Find out more ...</a>
+            </div>
+          </div>
+        </div>
+
+         <!--dr pepper column-->
+         <div class="col-sm-4">
+          <div class="card">
+            <a href="#">
+              <img class="card-img-top img-fluid img-tumbnail" src="assets/images/dr_pepper.jpg" alt="Dr Pepper">
+            </a>
+            <div class="card-body">
+              <h3>Dr Pepper</h3>
+              <p>Dr Pepper's unique, sparkling blend of 23 fruit flavours has been around for well over a century and it's still the same, with that distinctive flavour you just can't quite put your tongue on.
+                The distinctive, bold taste of Dr Pepper has been popular ever since.</p>
+              <a href="#" class="btn btn-primary">Find out more ...</a>
+
+            </div>
+          </div>
+        </div>
+        </div>
+
+
+    </div>
+    <!--end home page-->
+
+    <!--fanta page container-->
+    <div id ="fanta" class="container-fluid main_contents" style="display: none;">
+      <p>merge fantacan.html main contents here</p>
+
+      <div class="row">
+        <!-- Column to hold the X3D Model -->
+        <div class="col-sm-9">
+          <div class="card text-left">
+            <div class="card-header">
+                <ul class="nav nav-tabs card-header-tabs">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="javascript:swap('fanta')">Fanta</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:swap('cokezero')">Coke Zero</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:swap('costa')">Costa Coffee</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Bootstrap 4 card body to hold information about the X3D model-->
+            <div class="card-body">
+                <h4 class="card-title">Fanta X3D Model</h4>
+
+                <!-- Place the X3D code here -->
+                <!-- Temporary image instead of -->
+             
+                <div class="model3D">
+                    <x3d id="model3D">
+                        <scene>
+                            <inline url="assets/x3d/fantacan2.x3d"> </inline>
+                        </scene>
+                    </x3d>
+                </div> 
+
+                <p class="card-text">This X3D model of the Fanta can has been created in Cinema4D, exported to VRML97 and converted, using the instantreality transcoders, to X3D for display online.</p>
+                <h5 class="card-subtitle">Camera Views</h5>
+                <div class="camera-btns">
+                    <p class="card-text">These buttons select a range of X3D model viewpoints</p>
+                    <div class="btn-group ">
+                        <a href="#" class="btn btn-primary btn-responsive camera-font">Front</a>
+                        <a href="#" class="btn btn-secondary btn-responsive camera-font">Back</a>
+                        <a href="#" class="btn btn-success btn-responsive camera-font">Left</a>
+                        <a href="#" class="btn btn-danger btn-responsive camera-font">Right</a>
+                        <a href="#" class="btn btn-warning btn-responsive camera-font">Top</a>
+                        <a href="#" class="btn btn-outline-dark disabled btn-responsive camera-font">Off</a>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <!-- Column to hold 3D Image gallery --> 
+        <div class="col-sm-3">
+            <div class="card text-left">
+                <div class="card-header gallery-header">
+                    Gallery
+                </div>
+                <div class="card-body">
+                    <h4 class="card-title">3D Image Gallery</h4>
+                    <a href="coke.html">
+                        <img class="card-img-top img-fluid img-thumbnail" src="assets/images/fantacan.jpg" alt="Coca Cola">
+                    </a>
+                    <a href="sprite.html">
+                        <img class="card-img-top img-fluid img-thumbnail" src="assets/images/cokezero.jpg" alt="Coca Cola">
+                    </a>
+                    <a href="pepper.html">
+                        <img class="card-img-top img-fluid img-thumbnail" src="assets/images/costacoffee.jpg" alt="Coca Cola">
+                    </a>
+                    <p class="card-text">These 3D images of the Fanta can, Coke Zero bottle and Costa Coffee cup are rendered in Cinema4D Picture Viewer</p>
+                </div>
+            </div>
+          </div>
+      </div> 
+     
+    <!-- Row to hold 1 card to hold the coca cola descriptive text, etc. -->
+    <div class="row">
+      <!-- Fanta Column -->
+      <div class="col-sm-12">
+        <div class="card">
+          <div class="card-body">
+              <h3 class="card-title">Fanta</h3>
+              <p class="card-text">Atlanta Beginnings: It was 1886, and in New York Harbour, workers were constructing the Statue of Liberty. Eight hundred miles away, another great American symbol was about to be unveiled.
+                Like many people who change history, John Pemberton, an Atlanta pharmacist, was inspired by simple curiosity. One afternoon, he stirred up a fragrant, caramel-coloured liquid and, when it was done, he carried it a few doors down to Jacobs' Pharmacy. Here, the mixture was combined with carbonated water and sampled by customers who all agreed - this new drink was something special. So Jacobs' Pharmacy put it on sale for five cents (about 3p) a glass.</p>    
+              <a href="#" class="btn btn-primary">Find out more ...</a>   
+          </div>
+        </div>
+      </div> 
+    </div> 
+
+    </div>
+    <!--end fanta page-->
+
+    <!--coke zero page container-->
+    <div id ="cokezero" class="container-fluid main_contents"style="display: none;">
+      <p>merge cokezero.html main contents here</p>
+      <div class="row">
+        <!-- Column to hold the X3D Model -->
+        <div class="col-sm-9">
+          <div class="card text-left">
+            <div class="card-header">
+                <ul class="nav nav-tabs card-header-tabs">
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:swap('fanta')">Fanta</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="javascript:swap('cokezero')">Coke Zero</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:swap('costa')">Costa Coffee</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Bootstrap 4 card body to hold information about the X3D model-->
+            <div class="card-body">
+                <h4 class="card-title">Coke Zero X3D Model</h4>
+
+                <!-- Place the X3D code here -->
+                <!-- Temporary image instead of -->
+             
+                <div class="model3D">
+                    <x3d id="model3D">
+                        <scene>
+                            <inline url="assets/x3d/cokezero.x3d"> </inline>
+                        </scene>
+                    </x3d>
+                </div> 
+
+                <p class="card-text">This X3D model of the Coke Zero Bottle has been created in Cinema4D, exported to VRML97 and converted, using the instantreality transcoders, to X3D for display online.</p>
+                <h5 class="card-subtitle">Camera Views</h5>
+                <div class="camera-btns">
+                    <p class="card-text">These buttons select a range of X3D model viewpoints</p>
+                    <div class="btn-group ">
+                        <a href="#" class="btn btn-primary btn-responsive camera-font">Front</a>
+                        <a href="#" class="btn btn-secondary btn-responsive camera-font">Back</a>
+                        <a href="#" class="btn btn-success btn-responsive camera-font">Left</a>
+                        <a href="#" class="btn btn-danger btn-responsive camera-font">Right</a>
+                        <a href="#" class="btn btn-warning btn-responsive camera-font">Top</a>
+                        <a href="#" class="btn btn-outline-dark disabled btn-responsive camera-font">Off</a>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <!-- Column to hold 3D Image gallery --> 
+        <div class="col-sm-3">
+            <div class="card text-left">
+                <div class="card-header gallery-header">
+                    Gallery
+                </div>
+                <div class="card-body">
+                    <h4 class="card-title">3D Image Gallery</h4>
+                    <a href="coke.html">
+                        <img class="card-img-top img-fluid img-thumbnail" src="assets/images/fantacan.jpg" alt="Coca Cola">
+                    </a>
+                    <a href="sprite.html">
+                        <img class="card-img-top img-fluid img-thumbnail" src="assets/images/cokezero.jpg" alt="Coca Cola">
+                    </a>
+                    <a href="pepper.html">
+                        <img class="card-img-top img-fluid img-thumbnail" src="assets/images/costacoffee.jpg" alt="Coca Cola">
+                    </a>
+                    <p class="card-text">These 3D images of the Fanta can, Coke Zero bottle and Costa Coffee cup are rendered in Cinema4D Picture Viewer</p>
+                </div>
+            </div>
+          </div>
+      </div> 
+     
+    <!-- Row to hold 1 card to hold the coca cola descriptive text, etc. -->
+    <div class="row">
+      <!-- Costa Column -->
+      <div class="col-sm-12">
+        <div class="card">
+          <div class="card-body">
+              <h3 class="card-title">Coke Zero</h3>
+              <p class="card-text">Coke Zero text goes here</p>    
+              <a href="#" class="btn btn-primary">Find out more ...</a>   
+          </div>
+        </div>
+      </div> 
+    </div> 
+
+    </div>
+    <!--end coke zero page-->
+
+     <!--costa page container-->
+     <div id ="costa" class="container-fluid main_contents"style="display: none;">
+      <p>merge costa.html main contents here</p>
+
+      <div class="row">
+        <!-- Column to hold the X3D Model -->
+        <div class="col-sm-9">
+          <div class="card text-left">
+            <div class="card-header">
+                <ul class="nav nav-tabs card-header-tabs">
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:swap('fanta')">Fanta</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:swap('cokezero')">Coke Zero</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="javascript:swap('costa')">Costa Coffee</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Bootstrap 4 card body to hold information about the X3D model-->
+            <div class="card-body">
+                <h4 class="card-title">Costa Coffe Cup X3D Model</h4>
+
+                <!-- Place the X3D code here -->
+                <!-- Temporary image instead of -->
+             
+                <div class="model3D">
+                    <x3d id="model3D">
+                        <scene>
+                            <inline url="assets/x3d/costamodel.x3d"> </inline>
+                        </scene>
+                    </x3d>
+                </div> 
+
+                <p class="card-text">This X3D model of the Costa Cup has been created in Cinema4D, exported to VRML97 and converted, using the instantreality transcoders, to X3D for display online.</p>
+                <h5 class="card-subtitle">Camera Views</h5>
+                <div class="camera-btns">
+                    <p class="card-text">These buttons select a range of X3D model viewpoints</p>
+                    <div class="btn-group ">
+                        <a href="#" class="btn btn-primary btn-responsive camera-font">Front</a>
+                        <a href="#" class="btn btn-secondary btn-responsive camera-font">Back</a>
+                        <a href="#" class="btn btn-success btn-responsive camera-font">Left</a>
+                        <a href="#" class="btn btn-danger btn-responsive camera-font">Right</a>
+                        <a href="#" class="btn btn-warning btn-responsive camera-font">Top</a>
+                        <a href="#" class="btn btn-outline-dark disabled btn-responsive camera-font">Off</a>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <!-- Column to hold 3D Image gallery --> 
+        <div class="col-sm-3">
+            <div class="card text-left">
+                <div class="card-header gallery-header">
+                    Gallery
+                </div>
+                <div class="card-body">
+                    <h4 class="card-title">3D Image Gallery</h4>
+                    <a href="coke.html">
+                        <img class="card-img-top img-fluid img-thumbnail" src="assets/images/fantacan.jpg" alt="Coca Cola">
+                    </a>
+                    <a href="sprite.html">
+                        <img class="card-img-top img-fluid img-thumbnail" src="assets/images/cokezero.jpg" alt="Coca Cola">
+                    </a>
+                    <a href="pepper.html">
+                        <img class="card-img-top img-fluid img-thumbnail" src="assets/images/costacoffee.jpg" alt="Coca Cola">
+                    </a>
+                    <p class="card-text">These 3D images of the Fanta can, Coke Zero bottle and Costa Coffee cup are rendered in Cinema4D Picture Viewer</p>
+                </div>
+            </div>
+          </div>
+      </div> 
+     
+    <!-- Row to hold 1 card to hold the coca cola descriptive text, etc. -->
+    <div class="row">
+      <!-- Costa Column -->
+      <div class="col-sm-12">
+        <div class="card">
+          <div class="card-body">
+              <h3 class="card-title">Costa Coffee</h3>
+              <p class="card-text">Costa coffee text goes here</p>    
+              <a href="#" class="btn btn-primary">Find out more ...</a>   
+          </div>
+        </div>
+      </div> 
+    </div> 
+
+
+    </div>
+    <!--end costa page-->
+
+
+  
+   
+    <br> <!-- temp break until style template-->
+    <!-- 3d app footer-->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+      <div class="container-fluid">
+        <div class="navbar-text float-left copyright">
+          <p><span class="align-baseline"></span>&copy 2019 Mobile Web 3D Applications</span></p>
+        </div>
+        <div class="navbar-text float-right social">
+          <a href="#"><i class="fab fa-facebook-square fa-2x"></i></a>
+          <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+          <a href="#"><i class="fab fa-google-plus fa-2x"></i></a>
+          <a href="#"><i class="fab fa-github-square fa-2x"></i></a>
+
+        </div>
+      </div>
+    </nav>
+
+     <!-- Include the x3dom JavaScript -->
+     <script type='text/javascript' src='js/x3dom.js'></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+  </body>
+</html>

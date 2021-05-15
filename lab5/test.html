@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title> Javascript Swap Page Contents Function</title>
+
+    <script type="text/javascript">
+    var counter = 0;
+
+    function swap(selected)
+    {
+       document.getElementById('home').style.display = 'none';
+       document.getElementById('fanta').style.display = 'none';
+       document.getElementById('cokezero').style.display = 'none';
+       document.getElementById('costa').style.display = 'none';
+
+       document.getElementById(selected).style.display = 'block';
+
+
+    }
+
+    function changeLook()
+    {
+        document.getElementById('testing').style.backgroundColor='pink';
+    }
+
+    </script>
+</head>
+
+<body id="b">
+    <p id='testing'> 
+        <a href="javascript:swap('home')">Home</a>
+        <a href="javascript:swap('fanta')">Fanta</a>
+        <a href="javascript:swap('cokezero')">Coke Zero</a>
+        <a href="javascript:swap('costa')">Costa</a>
+
+        <a href="javascript:changeLook('block')">CLICK HERE</a>
+
+    </p>
+
+    <div id="home"><b>Home:</b> Welcome to my basic 3D app.</div>
+    <div id='fanta' style="display:none;"><b>Fanta:</b> Check out my fanta model</div>
+    <div id='cokezero' style="display:none;"><b>Coke Zero:</b> Check out my coke model</div>
+    <div id='costa' style="display:none;"><b>Costa:</b> Check out my costa model</div>
+</body>
+</html>
