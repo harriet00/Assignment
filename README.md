@@ -7,3 +7,5 @@ e.g. Bootstrap 4), AJAX for asynchronous update of HTML contents, JSON for data 
 data from a SQLite database, and all configured in a MVC design pattern. You should refine your Lab 3D Models to improve their geometry, 
 materials, lighting and camera definition. Your 3D models should be accessed through your Coca Cola Branded User Interface allowing them 
 to be manipulated in 3D space
+
+I used Cinema4D to create my 3D models. 
