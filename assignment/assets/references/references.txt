@@ -2,6 +2,7 @@ My References:
 
 slideshow:
 W3schools.com. 2021. How To Create a Slideshow. [online] Available at: <https://www.w3schools.com/howto/howto_js_slideshow_gallery.asp> [Accessed 19 May 2021].
+freeCodeCamp.org. 2021. How to build a responsive navbar with a toggle menu using Flexbox. [online] Available at: <https://www.freecodecamp.org/news/how-to-build-a-responsive-navbar-with-a-toggle-menu-using-flexbox-3438e1d08783/> [Accessed 20 May 2021].
 
 images:
 University of Sussex Logo. [image] Available at: <https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/University_of_Sussex_Logo.svg/220px-University_of_Sussex_Logo.svg.png> [Accessed 19 May 2021].

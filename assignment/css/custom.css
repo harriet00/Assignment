@@ -25,6 +25,7 @@
     height: auto; 
   }
 
+  
 
 button {
     background-color: #4735ec; /* Green */
@@ -58,7 +59,7 @@ body{
     background-position: center;
     background-attachment: fixed;
     font-family: sans-serif;
-    padding-top: 100px; 
+    padding-top: 5px; 
 }
 
 p {
@@ -96,6 +97,56 @@ h1, h2, h3, h4, h5, h6 {
 
 
 
+.Navbar {
+    background-color: #b9171c;
+    display: flex;
+    padding: 16px;
+    font-family: sans-serif;
+    color: white;
+    position: sticky;
+  }
+  
+  .Navbar__Link {
+    padding-right: 8px;
+  }
+  
+  .Navbar__Items {
+    display: flex;
+  }
+  
+  .Navbar__Items--right {
+    margin-left:auto;
+  }
+  
+  .Navbar__Link-toggle {
+    display: none;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .Navbar__Items,
+    .Navbar {
+      flex-direction: column;
+    }
+      
+  .Navbar__Items {
+      display:none;
+    }
+      
+  .Navbar__Items--right {
+      margin-left:0;
+    }
+      
+  .Navbar__ToggleShow {
+      display: flex;
+    }
+      
+  .Navbar__Link-toggle {
+      align-self: flex-end;
+      display: initial;
+      position: absolute;
+      cursor: pointer;
+     } 
+  }
 .navbar_coca_cola{
     position: fixed;
     width:100%;
@@ -120,7 +171,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-item{
 
     display: inline-block;
-    padding: 16px 60px;
+    padding: 16px 10px;
 
 }
 
@@ -138,17 +189,6 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
-.navbar_coca_cola .navbar-toggler {
-    border-color: white;
-}
-
-.navbar_coca_cola  .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1.0)' stroke-width='4' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-}
-
-.navbar_coca_cola .navbar-toggler {
-    outline: none !important;
-}
 
 .model3D  {
     background-color: rgba(255, 255, 255, 0.0); /* Adjust the transparency to bring the color forward */
@@ -171,11 +211,7 @@ X3D, x3d {
     background-color: aquamarine;
 }*/
 
-navbar_coca_cola.black
-{
-    background:#000;
-    
-}
+
 
 /*logo styling*/
 .logo {
@@ -212,6 +248,7 @@ navbar_coca_cola.black
 
 }
 
+
 #main_contents {
   margin-top: 150px;
 }
@@ -247,7 +284,7 @@ img {vertical-align: middle;}
 
 /* Slideshow container */
 .slideshow-container {
-  padding-top: 150px;
+  padding-top: 50px;
   max-width: 1000px;
   position: relative;
   margin: auto;
