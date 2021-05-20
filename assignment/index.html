@@ -1,0 +1,439 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/b663cda5eb.js" crossorigin="anonymous"></script>
+
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <!-- Fontawesome CSS -->
+    <link rel="stylesheet" href="css/all.css">
+
+    <!--custom css link-->
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!-- X3dom -->
+    <link rel='stylesheet' type='text/css' href='css/x3dom.css'>
+
+    <title>Web 3D Assignment</title>
+
+    <!--<script type="text/javascript">
+      
+  
+      </script> -->
+  </head>
+  
+
+  <header id = "myHeader">
+<!-- navigation bar with button-->
+<nav class="navbar sticky-top navbar-expand-sm navbar_coca_cola">
+
+  <div class="container-fluid">  
+      <!-- Brand -->
+      <div class="logo">
+        <a class="navbar-brand" href="index.html">
+        <h1>1 oca</h1>
+        
+        <h2>Cola</h2>
+        <h3>Experience</h3>
+       <!--<p>Refreshing the world, one story at a time</p>-->
+        </a>
+      </div>
+    </div>
+  <button type="button" class="navbar-toggler" data-toggle="collapse" data-target=".navbar-collapse ">
+      <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <!-- Links -->
+    <ul class="navbar-nav"> <!-- Use mx-auto to align centre, default to left or use mr-auto -->
+      <li class="nav-item">
+        <a class="nav-link active" href="index.html">Home</a>
+      </li>
+      <li class="nav-item">
+          <a id="navAbout" class="nav-link" href="#">About</a>
+      </li>
+      <li class="nav-item">
+        <a id="navModels" class="nav-link" href="#">Our Models</a>
+    </li>
+
+   <!-- <li class="nav-item">
+      <a class="nav-link" href="javascript:swap('cokezero')">Coke Zero</a>
+  </li>
+
+  <li class="nav-item">
+    <a class="nav-link" href="javascript:swap('costa')">Costa Coffee</a>
+</li> -->
+      <li class="nav-item">
+          <a id="navAdverts" class="nav-link" href="#">Advertisement</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contacts</a>
+    </li>
+    </ul>
+</div>
+</div>  
+</nav>
+  </header>
+  <body id='theme'>
+    
+
+
+    
+    <!--SPA 4 fluid grid containers-->
+    <div class="container-fluid main_contents">
+    <!--home page container-->
+    <div id="home">
+
+      <div class="slideshow-container">
+
+        <div class="mySlides">
+          <div class="numbertext"></div>
+          <img src="assets/images/cokeMain.jpeg" style="width:100%">
+          <div class="text">
+            <div id="title_home"></div>
+           <div id="subTitle_home"></div>
+           <div id="description_home"></div>
+          </div>
+        </div>
+        
+        <div class="mySlides">
+          <div class="numbertext"></div>
+          <img src="assets/images/cokezero.jpg" style="width:100%">
+          <div class="text">
+           <div id="title_coke_slide"></div>
+           <div id="subTitle_coke_slide"></div>
+           <div id="description_coke_slide"></div>
+          </div>
+        </div>
+        
+        <div class="mySlides">
+          <div class="numbertext"></div>
+          <img src="assets/images/costacoffee.jpg" style="width:100%">
+          <div class="text">
+            <div id="title_costa_slide"></div>
+            <div id="subTitle_costa_slide"></div>
+            <div id="description_costa_slide"></div></div>
+        </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+        </div>
+
+       
+          
+   
+      <div class="row">
+
+        <!--fanta column-->
+        <div class="col-sm-4">
+          <div id = "homeCard" class="card">
+            <a href="#">
+              <div id="fanta_logo" ></div>
+            </a>
+            <div class="card-body">
+              <div id="title_left" class="card-title homeText"></div>
+              <div id="subTitle_left" class="card-subtitle homeText"></div>
+              <div id="description_left" class="card-text homeText"></div>
+              <a href="#" class="btn btn-primary">Find out more ...</a>
+            </div>
+          </div>
+        </div>
+
+        <!--coke zero column-->
+        <div class="col-sm-4">
+          <div id = "homeCard" class="card">
+            <a href="#">
+              <div id="cokezero_logo" ></div>
+            </a>
+            <div class="card-body">
+              <div id="title_centre" class="card-title homeText"></div>
+              <div id="subTitle_centre" class="card-subtitle homeText"></div>
+              <div id="description_centre" class="card-text homeText"></div>
+              <a href="#" class="btn btn-primary">Find out more ...</a>
+            </div>
+          </div>
+        </div>
+
+         <!--costa column-->
+         <div class="col-sm-4">
+          <div id="homeCard" class="card">
+            <a href="#">
+              <div id="costa_logo" ></div>
+            </a>
+            <div class="card-body">
+              <div id="title_right" class="card-title homeText"></div>
+              <div id="subTitle_right" class="card-subtitle homeText"></div>
+              <div id="description_right" class="card-text homeText"></div>
+              <a href="#" class="btn btn-primary">Find out more ...</a>
+
+            </div>
+          </div>
+        </div>
+        </div>
+
+        </div>
+
+    <!--end home page-->
+<!--about page start-->
+    <div id="about">
+
+      <div class="row">
+        <div class="col-6 col-s-9 mx-auto">
+          <div class="card" id="homeCard">
+          <div class = "card-body">
+          <div id="title_about" class="card-title homeText"></div>
+          <div id="description_about" class="card-text homeText"></div>
+        </div>
+        </div>
+            <!--statement of originality-->
+        <div class="card" id="homeCard">
+          <div class = "card-body">
+          <div id="title_statement" class="card-title homeText"></div>
+          <div id="description_statement" class="card-text homeText"></div>
+        </div>
+        </div>
+        </div>
+
+        <div class="col-3 col-s-3 mx-auto">
+          <div class="card" id="homeCard">
+          <div id = "sussex" class = "card-body text-center">
+          <img src="assets/images/uofslogo.png" width=100%>
+        </div>
+        </div>
+        <div class="card" id="homeCard">
+          <div class = "card-body text-center">
+          <a href="assets/references/references.txt">References</a>
+        </div>
+        </div>
+
+        </div>
+      </div>
+      </div>
+<!--ad page-->
+      <div id="adverts">
+        
+        <div class="row">
+          
+          <div class="col-6 col-s-9 mx-auto">
+            <div class="card" id="homeCard">
+            <div id ="advideo" class= "card-body mx-auto">
+              <div id="iframe-container">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/eOMhOjgNd7Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            </div>
+          </div>
+         
+        </div>
+        </div>
+        </div>
+
+      <!--advert page end-->
+<!--x3d models and 3d image gallery here-->
+<div id="models">
+  <div class="row">
+    <div class="col-sm-8 mx-auto">
+      <div class="card text-left">
+        
+        <div class="card-body">
+        <div>
+          <div id="x3d_title_fanta" class="card-title homeText"></div>
+          <div id="x3d_title_cokezero" class="card-title homeText"></div>
+          <div id="x3d_title_costa" class="card-title homeText"></div>
+
+
+          <button type="button" class="btn btn-success btn-responsive" onMouseUp="fantaScene(); fantaDescription();">Fanta</button>
+          <button type="button" class="btn btn-success btn-responsive" onMouseUp="cokezeroScene(); cokezeroDescription();">Coke Zero</button>
+          <button type="button" class="btn btn-success btn-responsive" onMouseUP="costaScene(); costaDescription();">Costa Coffee</button>
+       <div class="model3D">
+        <x3d id="wire">
+          <scene>
+            <Viewpoint id="frontView" position="137.77373 72.66516 -358.48811" orientation="0.05588 0.99274 0.10654 2.79101" centerOfRotation="0.00000 0.00000 0.00000" fieldOfView="0.92729" description="Camera_1"></Viewpoint>>
+            <Viewpoint id="bottomView" position="2.37075 -390.10522 -3.36626" orientation="0.21117 0.69478 -0.68753 2.72083" centerOfRotation="0.00000 0.00000 0.00000" fieldOfView="0.92729" description="Camera_1"></Viewpoint>>
+            <Viewpoint id="topView" position="25.22752 384.18107 -67.40939" orientation="-0.02818 0.76680 0.64127 3.01009" centerOfRotation="0.00000 0.00000 0.00000" fieldOfView="0.92729" description="Camera_1"></Viewpoint>
+              <Switch whichChoice="0" id='SceneSwitch'>
+                  <transform>
+                      <inline nameSpaceName="model" mapDEFToID="true"  url="assets/x3d/fantacan2.x3d" > </inline>
+                  </transform>
+                  <transform>
+                      <inline nameSpaceName="model" mapDEFToID="true" onclick='redBottle();' url="assets/x3d/cokezero.x3d"> </inline>
+                  </transform>
+                  <transform>
+                      <inline nameSpaceName="model" mapDEFToID="true" url="assets/x3d/costa.x3d"> </inline>
+                  </transform>
+                  <transform>
+                    <inline nameSpaceName="model" mapDEFToID="true" url="assets/x3d/fantarotate.x3d"> </inline>
+                </transform>
+              </Switch>
+          </scene>
+        </x3d>
+       </div>
+       <div id="x3d_description_fanta" class="card-text homeText"></div>
+       <div id="x3d_description_cokezero" class="card-text homeText"></div>
+       <div id="x3d_description_costa" class="card-text homeText"></div>
+
+        </div>
+
+          
+          
+
+        </div> <!-- end of model card-->
+    </div>
+    <div id="fantaDescription" class="row">
+      <!-- Fanta Column -->
+      <div class="col-sm-12">
+        <div class="card">
+          <div class="card-body">
+              <div id="title_fanta" class="card-title homeText"></div>
+              <div id="subTitle_fanta" class="card-subtitle homeText"></div>
+              <div id="description_fanta" class="card-text homeText"></div>
+              <a href="#" class="btn btn-primary">Find out more ...</a>   
+          </div>
+        </div>
+      </div> 
+    </div>   
+    <!--row to hold cokezero description--> 
+    <div id="cokezeroDescription" class="row">
+      <div class="col-sm-12">
+        <div class="card">
+          <div class="card-body">
+            <div id="title_cokezero" class="card-title homeText"></div>
+            <div id="subTitle_cokezero" class="card-subtitle homeText"></div>
+            <div id="description_cokezero" class="card-text homeText"></div>
+            <a href="#" class="btn btn-primary">Find out more ...</a>   
+          </div>
+        </div>
+      </div> 
+    </div> 
+    <!--row to hold costa detail-->
+    <div id = "costaDescription" class="row">
+      <!-- Costa Column -->
+      <div class="col-sm-12">
+        <div class="card">
+          <div class="card-body">
+            <div id="title_costa" class="card-title homeText"></div>
+            <div id="subTitle_costa" class="card-subtitle homeText"></div>
+            <div id="description_costa" class="card-text homeText"></div>
+            <a href="#" class="btn btn-primary">Find out more ...</a>   
+          </div>
+        </div>
+      </div> 
+    </div> 
+  </div>
+  <!--3d image gallery here-->
+  <div class="col-sm-4">
+    <div id="interaction">
+      <div class="card text-left mx-auto">
+      <div id="title_camera" class="card-title mainText"></div>
+      <div id="subtitle_camera" class="card-text mainText"></div>
+      
+      <button type ="button" class="button button1" onclick="document.getElementById('frontView').setAttribute('set_bind','true');">FrontView</button>
+      <button type="button"class="button button2" onclick="document.getElementById('bottomView').setAttribute('set_bind','true');">Bottom View</button>
+      <button type="button" class="button button3"onclick="document.getElementById('topView').setAttribute('set_bind','true');">Top View</button>
+      <button type="button" class="button button4" onMouseUp="fantaAnimateScene(); fantaAnimateDescription();">Animate Fanta</button>
+      <button type="button" class="button button5" onclick="wireFrame();">Wire</a></button>
+      <button type="button" class="button button6" onclick="normalFrame();">Default</a></button>
+
+    </div>
+    </div>
+    <div id="gallerycard" class="card text-left">
+        <div class="card-header gallery-header">
+            Gallery
+        </div>
+        <div class="card-body">
+          <div id="title_gallery" class="card-title homeText"></div>
+            <!-- gallery genertaed using php js and jquery -->
+            <div class="gallery" id="gallery"></div>
+            <div id="description_gallery" class="card-text homeText"></div>
+        </div>
+    </div>
+    
+  </div>
+  <!--end of gallery-->
+  
+</div> <!--end of models and gallery-->
+<!--
+<div id="interaction" class="row">
+  <div class="card text-left mx-auto">
+  <div id="title_camera" class="card-title homeText"></div>
+  <div class="camera-btns">
+    <div id="subtitle_camera" class="card-text homeText"></div>
+    <button type="button" class="btn btn-success btn-responsive" onMouseUp="fantaAnimateScene(); fantaAnimateDescription();">Animate Fanta</button>
+    <button onclick="document.getElementById('frontView').setAttribute('set_bind','true');">FrontView</button>
+    <button onclick="document.getElementById('bottomView').setAttribute('set_bind','true');">Bottom View</button>
+    <button onclick="document.getElementById('topView').setAttribute('set_bind','true');">Top View</button>
+      <div class="btn-group ">
+        
+          <a href="#" class="btn btn-primary btn-responsive camera-font">Front</a>
+          <a href="#" class="btn btn-secondary btn-responsive camera-font">Back</a>
+          <a href="#" class="btn btn-success btn-responsive camera-font">Left</a>
+          <a href="#" class="btn btn-danger btn-responsive camera-font">Right</a>
+          <a href="#" class="btn btn-warning btn-responsive camera-font">Top</a>
+          <a href="#" class="btn btn-outline-dark disabled btn-responsive camera-font">Off</a>
+      </div>
+  </div>
+</div>
+</div>
+-->
+<!-- end interaction pannels for now-->
+ <!-- row for fanta desc text-->
+ 
+</div>
+</div>
+     
+   
+    <br> <!-- temp break until style template-->
+    <!-- 3d app footer-->
+    <nav class="navbar navbar-expand-sm footer">
+      <div class="container-fluid" id ='footer'>
+        <div class="navbar-text float-left copyright">
+          <p><span class="align-baseline"></span>&copy 2021 Mobile Web 3D Applications <a href="javascript:changeLook('block')"> RESTYLE | </a>
+            <a href="javascript:changeBack('block')">CHANGE BACK</a> <a href="https://github.com/harriet00/Assignment"> | GITHUB</a><a href="https://universityofsussex-my.sharepoint.com/:f:/g/personal/hm393_sussex_ac_uk/EmYCkztVctBGh_McmMdJGBYBCeIbZ2Yj81abLdJVQUAxeQ?e=PfvnSp"> | 3D MODELS</a></span></p>
+        </div>
+        <div class="navbar-text float-right social">
+          <a href="#"><i class="fab fa-facebook-square fa-2x"></i></a>
+          <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+          <a href="#"><i class="fab fa-google-plus fa-2x"></i></a>
+          <a href="#"><i class="fab fa-github-square fa-2x"></i></a>
+
+        </div>
+      </div>
+    </nav>
+
+     <!-- Include the x3dom JavaScript -->
+    <script type='text/javascript' src='scripts/js/x3dom.js'></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="scripts/js/jquery-3.4.1.js"></script>
+    <script src="scripts/js/popper.min.js"></script>
+    <script src="scripts/js/bootstrap.js"></script>
+    <script src="scripts/js/gallery_generator.js"></script>
+    <script src="scripts/js/swap_restyle.js"></script>
+    <script src="scripts/js/modelInteraction.js"></script>
+    <script src="scripts/js/getJsonData.js"></script>
+    <script src="scripts/js/slideShow.js"></script>
+
+
+
+  </body>
+</html>

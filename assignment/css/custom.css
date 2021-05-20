@@ -1,0 +1,597 @@
+@font-face {
+    font-family: cocaColaFont;
+    src: url(../assets/fonts/loki_cola/LOKICOLA.TTF);
+}
+
+.iframe-container{
+    position: relative;
+    padding-bottom: 56.25%; 
+    height: 0;
+    overflow: hidden;
+  }
+.iframe-container iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    
+   
+  }
+
+  #sussex{
+    width: 100%;
+    max-width: 400px;
+    height: auto; 
+  }
+
+
+button {
+    background-color: #4735ec; /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 100px;
+}
+.button:hover {background-color: #1d1e61}
+
+button:active{
+        background-color: #3e8e41;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+      
+
+}
+.button6{
+    padding: 1%;
+}
+
+body{
+    background: linear-gradient(rgba(0,0,100,0.5),rgba(0,0,100,0.5)), url(../assets/images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: sans-serif;
+    padding-top: 100px; 
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+#main_text {
+    float: left;
+    margin: 5%;
+    width: 90%;
+    display: block;
+    background-color: rgba(255,255,255,0.8);
+    padding: 10px;
+    border-radius: 5px;
+}
+#main_text h2 {
+    color: rgba(0,102,153,1);
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+#main_text h3 {
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#main_text p {
+    font-size: 12px;
+    margin: 0px;
+    line-height: 1.2;
+} 
+
+
+
+.navbar_coca_cola{
+    position: fixed;
+    width:100%;
+    line-height: 60px;
+    background-color: #b9171c;
+    margin-bottom: 50px !important;
+    
+}
+
+
+
+.navbar-nav{
+    float: right;
+    margin:0;
+    padding-right: 42px;
+    position:sticky;
+    background-color: #b9171c;
+
+
+}
+
+.nav-item{
+
+    display: inline-block;
+    padding: 16px 60px;
+
+}
+
+.nav-item a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+
+}
+
+.nav-item a:hover{
+    color: rgb(113, 94, 196);
+    background-color: #8f1115;
+  
+
+}
+
+.navbar_coca_cola .navbar-toggler {
+    border-color: white;
+}
+
+.navbar_coca_cola  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1.0)' stroke-width='4' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar_coca_cola .navbar-toggler {
+    outline: none !important;
+}
+
+.model3D  {
+    background-color: rgba(255, 255, 255, 0.0); /* Adjust the transparency to bring the color forward */
+    border-radius: 5px;
+    border: 0px solid rgba(0, 0, 0, 1.0);
+    padding: 2px;
+    height: 200px;
+}
+
+X3D, x3d {
+    background-color: rgba(255, 255, 255, 0.0); /* Adjust the transparency to bring the color forward */
+    border-radius: 5px;
+    border: 0px solid rgba(255, 0, 0, 1.0);
+    width: 100%;
+    height: 100%
+    
+}
+
+/*.active{
+    background-color: aquamarine;
+}*/
+
+navbar_coca_cola.black
+{
+    background:#000;
+    
+}
+
+/*logo styling*/
+.logo {
+    left: 0px;
+    padding: 5px;
+   
+}
+
+.logo h1{
+    font-family: cocaColaFont;
+    font-size: 50px;
+    color: white;
+    display: inline-block;
+   
+
+}
+
+.logo h2{
+    font-family: cocaColaFont;
+    font-size: 45px;
+    color: white;
+    padding-left: 5px;
+    padding-top: 0px;
+    display: inline-block;
+
+}
+.logo h3{
+    font-family: cocaColaFont;
+    font-size: 24px;
+    color: white;
+    padding-left: 5px;
+    padding-top: 0px;
+    display: inline-block;
+
+}
+
+#main_contents {
+  margin-top: 150px;
+}
+/* first row on home page*/
+#intro{
+    position: relative;
+}
+
+
+#main_text{
+    color:black;
+    background-color: white;
+}
+
+.card-text {
+    font-size: 14px;
+    margin-top: 10px;
+ }
+
+ .card-title {
+    font-size: 20px;
+    margin-top: 2px;
+ }
+ .card-subtitle {
+    font-size: 16px;
+    margin-top: 2px;
+ }
+
+
+
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  padding-top: 150px;
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(128, 128, 128, 0.486);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+
+
+#homeCard {
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+    background-color: rgb(255, 255, 255);
+
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+#homeTitle{
+    font-size: 30px;
+    font-weight: bold;
+}
+#homeText{
+    font-size: 12px;
+    
+}
+
+#homeCard:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+}
+
+.card {
+    border: 1px solid rgba(0,0,0,.125);
+    /* border-radius: .25rem;*/
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(254, 255, 184);
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+    
+}
+
+.cardTitle {
+    font-weight: bold;
+    font-size: larger;
+}
+
+.row {
+    padding-top: 50px;
+    display: flex;
+  }
+  
+  .column {
+    flex: 50%;
+  }
+
+/*gallery styling*/
+
+
+#gallerycard{
+background-color: rgb(255, 255, 255);
+
+}
+
+.img-thumbnail {
+    padding: 0.25rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    max-width: 100%;
+    height: auto;
+
+
+}
+
+.gallery .img-thumbnail{
+    background-color:#F40009;
+    padding: 0.25rem;
+    margin: 5px;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    max-width: 43%;
+    height: auto;
+
+}
+
+/*camera buttons*/
+
+.camera-font {
+    font-weight: 400;   
+    color: white;
+}
+
+
+
+.camera-font:hover {
+    font-weight: 700;   
+    color: rgb(3, 3, 3);
+}
+
+
+/*footer styling*/
+
+.footer{
+    background-color: #b9171c;
+    color: white;
+}
+
+.navbar-text > a {
+    font-size: 10px;
+}
+
+.navbar-text > p {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    text-decoration: none;
+}
+.copyright {
+    padding-top: 8px;
+    width: 60%;
+}
+
+.social {
+    padding-top: 0px;
+    width: 30%;
+     
+}
+
+.fa-twitter-square:before {
+    content: "\f081";
+    color: green;
+    font-size: 1em;
+}
+
+.fa-github-square:before {
+    content: "\f092"; 
+    color: yellow;
+    font-size: 1em;
+}
+
+.fa-google-plus-square:before {
+    content: "\f0d4"; 
+    color: blue;
+    font-size: 1em;
+}
+
+.fa-facebook-square:before {
+    content: "\f082";
+    color: red;
+    font-size: 1em; 
+}
+
+
+
+/* Small devices (landscape phones, 576px and up)
+
+@media (min-width: 576px) {}*/
+
+/* Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) { 
+
+.card{
+    background-color: yellowgreen;
+}
+
+
+
+/* Large devices (desktops, 992px and up)*/
+
+@media (min-width: 992px) { 
+
+    .card{
+        background-color: whitesmoke;
+    }
+    .logo h1{
+        font-family: cocaColaFont;
+        font-size: 60px;
+        color: white;
+        display: inline-block;
+       
+    
+    }
+    
+    .logo h2{
+        font-family: cocaColaFont;
+        font-size: 55px;
+        color: white;
+        padding-left: 5px;
+        padding-top: 0px;
+        display: inline-block;
+    
+    }
+    .logo h3{
+        font-family: cocaColaFont;
+        font-size: 28px;
+        color: white;
+        padding-left: 5px;
+        padding-top: 0px;
+        display: inline-block;
+    
+    }
+
+    .fa-twitter-square:before {
+        content: "\f081";
+        color: green;
+        font-size: 2em;
+    }
+    
+    .fa-github-square:before {
+        content: "\f092"; 
+        color: yellow;
+        font-size: 2em;
+    }
+    
+    .fa-google-plus-square:before {
+        content: "\f0d4"; 
+        color: blue;
+        font-size: 2em;
+    }
+    
+    .fa-facebook-square:before {
+        content: "\f082";
+        color: red;
+        font-size: 2em; 
+    }
+
+    button {
+        background-color: #4735ec; /* Green */
+        border: none;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        margin: 4px 2px;
+        cursor: pointer;
+        width: 150px;
+    }
+    .button:hover {background-color: #1d1e61}
+    
+    button:active{
+            background-color: #3e8e41;
+            box-shadow: 0 5px #666;
+            transform: translateY(4px);
+          
+    
+    }
+    .button6{
+        padding: 1%;
+    }
+}
+    
+
+/* Extra large devices (large desktops, 1200px and up)*/
+    
+ @media (min-width: 1200px) { 
+     .model3D  {
+        height: 550px;
+    } 
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+
+  /*video css code responisive from https://www.youtube.com/watch?v=9YffrCViTVk&t=136s */
+.iframe-container{
+    position: relative;
+    padding-bottom: 56.25%; 
+    height: 0;
+    overflow: hidden;
+  }
+.iframe-container iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    
+   
+  }
+}
+}
