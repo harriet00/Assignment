@@ -1,0 +1,15 @@
+My References:
+
+slideshow:
+W3schools.com. 2021. How To Create a Slideshow. [online] Available at: <https://www.w3schools.com/howto/howto_js_slideshow_gallery.asp> [Accessed 19 May 2021].
+
+images:
+University of Sussex Logo. [image] Available at: <https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/University_of_Sussex_Logo.svg/220px-University_of_Sussex_Logo.svg.png> [Accessed 19 May 2021].
+Fanta Label. [image] Available at: <https://i.pinimg.com/originals/cc/88/b4/cc88b4e6ffeb23777d695f366899a5c7.jpg> [Accessed 19 May 2021].
+Fanta Background. [image] Available at: <https://64.media.tumblr.com/75e1e1806ca7d7254f8ebda65f6d3b2d/tumblr_njhpifEnbp1un02d1o2_r1_1280.jpg> [Accessed 19 May 2021].
+Coke Can. [image] Available at: <https://images2.minutemediacdn.com/image/upload/c_crop,h_843,w_1500,x_0,y_70/v1555172501/shape/mentalfloss/iStock-487787108.jpg?itok=s3FHpO_M> [Accessed 19 May 2021].
+Costa Logo. [image] Available at: <https://logos-download.com/6018-costa-coffee-logo-download.html> [Accessed 19 May 2021].
+Coke Zero Label. [image] Available at: <https://i.ytimg.com/vi/sOHPMw0EXxA/maxresdefault.jpg> [Accessed 19 May 2021].
+
+Research:
+Agocg.ac.uk. 2021. A Guide to VRML 2.0 - 3. Language Details. [online] Available at: <http://www.agocg.ac.uk/train/vrml2rep/part1/guide3.htm> [Accessed 19 May 2021].

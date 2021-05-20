@@ -1,0 +1,89 @@
+{
+"pageTextData": [
+    {
+        "title": "Coca Cola Great Britain",
+        "subTitle": "Founded in 1886 Dr John S Pemberton",
+        "description": "The Coca‑Cola Company is the world's leading manufacturer, marketer and distributor of non-alcoholic beverage concentrates and syrups, and produces nearly 400 brands. "
+    },
+    {
+        "title": "Fanta",
+        "subTitle": "Italy, 1940",
+        "description": "Fanta originated as a Coca-Cola substitute in 1940 due to the American trade embargo of Nazi Germany which affected the availability of Coca-Cola ingredients; the current formulation was developed in Italy."
+    },
+    {
+        "title": "Coke Zero",
+        "subTitle": "United States, 2005",
+        "description": "Coca-Cola Zero was Coca-Cola's largest product launch in 22 years. It was marketed as having a taste that is indistinguishable from standard Coca-Cola, as opposed to Diet Coke, which has a different flavor profile."
+    },
+    {
+        "title": "Costa Coffee",
+        "subTitle": "London, 1971",
+        "description": "Costa Coffee is a British coffeehouse chain and a subsidiary of The Coca-Cola Company. It is headquartered in Dunstable, England."
+    },
+    {
+        "x3dModelTitle": "Fanta X3D Model",
+        "x3dCreationMethod": "This X3D model of the Fanta can has been created in Cinema4D, exported to VRML97 and converted, using the instantreality transcoders, to X3D for display online",
+        "title": "History of Fanta",
+        "subTitle": "First introduced in 1940",
+        "description": "During the Second World War, the US established a trade embargo against Nazi Germany—making the export of Coca-Cola syrup difficult. To circumvent this, Max Keith, the head of Coca-Cola Deutschland (Coca-Cola GmbH), decided to create a new product for the German market, using only ingredients available in Germany at the time, including beet sugar, whey, and apple pomace."
+    },
+    {
+        "x3dModelTitle": "Coke Zero X3D Model",
+        "x3dCreationMethod": "This X3D model of Coke Zero has been created in Cinema4D, exported to VRML97 and converted, using the instantreality transcoders, to X3D for display online",
+        "title": "History of Coke Zero",
+        "subTitle": "First introduced in 2005",
+        "description": "Coca-Cola Zero was Coca-Cola's largest product launch in 22 years. The global campaign was developed by creative agency Crispin Porter + Bogusky. It was marketed as having a taste that is indistinguishable from standard Coca-Cola, as opposed to Diet Coke, which has a different flavor profile."
+    },
+    {
+        "x3dModelTitle": "Costa Coffee X3D Model",
+        "x3dCreationMethod": "This X3D model of Costa Coffee has been created in Cinema4D, exported to VRML97 and converted, using the instantreality transcoders, to X3D for display online",
+        "title": "History of Costa Coffee",
+        "subTitle": "First introduced in 1971",
+        "description": "Costa Coffee was founded in London in 1971 by two brothers Bruno and Sergio Costa as a wholesale operation supplying roasted coffee to caterers and specialist Italian coffee shops. Acquired by Whitbread in 1995, it was sold in 2019 to The Coca-Cola Company in a deal worth £3.9bn, and has grown to 3,401 stores across 31 countries and 18,412 employees."
+    },
+    {
+        "galleryTitle": "3D Images",
+        "galleryDescription": "These 3D images of the fanta can, coke zero bottle and costa coffee cup were rendered in the cinema4D picture viewer."
+    },
+    {
+        "CameraTitle": "Camera Views",
+        "CameraSubtitle": "These buttons select a range of X3D model viewpoints."
+    },
+    {
+        "fantaLogo": "assets/images/fantalogo.jpg",
+        "cokezeroLogo": "assets/images/cokezerologo.jpeg",
+        "costaLogo": "assets/images/costalogo.jpg"
+    },
+
+    {
+        "x3dFantaModel": "assets/x3d/fantacan2.x3d",
+        "x3dCokezeroModel": "assets/x3d/cokezero.x3d",
+        "x3dCostaModel": "assets/x3d/costamodel.x3d"
+
+    },
+
+
+    {
+        "aboutTitle": "About",
+        "aboutDescription": "This is the website Web3D applications module. The assignments details are as follows:To meet these assignment requirements a successful student is required to build a X3D based Coca Cola Branded (3D App) exploiting HTML5, CSS3, X3D (X3DOM), JavaScript (you should utilise one or more of the JavaScript APIs such as jQuery, and a JavaScript frontend framework, e.g. Bootstrap 4), AJAX for asynchronous update of HTML contents, JSON for data transfer from the backend to the frontend, PHP to access data from a SQLite database, and all configured in a MVC design pattern. You should refine your Lab 3D Models to improve their geometry, materials, lighting and camera definition. Your 3D models should be accessed through your Coca Cola Branded User Interface allowing them to be manipulated in 3D space. I used Cinema4D to create my 3D models. All work has been developed on macOS."
+    },
+
+    {
+        "statementTitle": "Statement Of Originality",
+        "statementDescription": "These web pages are submitted as part requirement for the degree of [insert your degree title] at the University of Sussex.  They are the product of my own labour except where indicated in the web page content. These web pages or contents may be freely copied and distributed provided the source is acknowledged"
+    },
+    {
+        "title": "Coke Zero 3D Model",
+        "subTitle": "A Coke Zero bottle created in Cinema 4D",
+        "description": "This is an example of a Coke Zero bottle model designed using a box modelling approach in Cinema 4D, Coke Zero is one of Coca Cola's most iconic brands."
+    },
+    {
+        "title": "Costa Coffee Model",
+        "subTitle": "A Costa Coffee cup created in Cinema 4D",
+        "description": "This is an example of a Costa Coffee model designed using a spline modelling approach in Cinema 4D. Costa is one of Britains most beloved coffee shop chains."
+    }
+    
+
+]
+
+}

@@ -14,6 +14,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="https://kit.fontawesome.com/b663cda5eb.js" crossorigin="anonymous"></script>
+
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.css">
 
@@ -92,15 +94,15 @@
             </div>
           </li>-->
           <li class="nav-item">
-            <a class="nav-link" href="javascript:swap('fanta')">Fanta</a>
+            <a class="nav-link" href="javascript:swap('fanta')">Virtual Museum</a>
         </li>
-        <li class="nav-item">
+       <!-- <li class="nav-item">
           <a class="nav-link" href="javascript:swap('cokezero')">Coke Zero</a>
       </li>
 
       <li class="nav-item">
         <a class="nav-link" href="javascript:swap('costa')">Costa Coffee</a>
-    </li>
+    </li> -->
           <li class="nav-item">
               <a class="nav-link" href="#">Contact</a>
           </li>
@@ -125,6 +127,7 @@
 
       <div class="row">
         <div class="col-sm-12">
+          <div id="main_3D_image">
           <div id="main_text" class="col-xs-12 col-sm-4">
             <h2>Coca Cola Great Britain</h2>
             <h3>Founded by Dr John S Pemberton</h3>
@@ -132,30 +135,31 @@
           </div> 
         </div>
       </div>
+    </div>
       <div class="row">
 
-        <!--coca cola column-->
+        <!--fanta column-->
         <div class="col-sm-4">
           <div class="card">
             <a href="#">
-              <img class="card-img-top img-fluid img-tumbnail" src="assets/images/coca_cola.jpg" alt="Coca Cola">
+              <img class="card-img-top img-fluid img-tumbnail" src="assets/images/fantalogo.jpg" alt="Fanta">
             </a>
             <div class="card-body">
-              <h3>Coca Cola</h3>
+              <h3>Fanta</h3>
               <p>Founded in 1886 by pharmacist Dr John S Pemberton in Atlanta, Georgia, The Coca‑Cola Company is the world's leading manufacturer, marketer and distributor of non-alcoholic beverage concentrates and syrups, and produces nearly 400 brands.</p>
               <a href="#" class="btn btn-primary">Find out more ...</a>
             </div>
           </div>
         </div>
 
-        <!--sprite column-->
+        <!--coke zero column-->
         <div class="col-sm-4">
           <div class="card">
             <a href="#">
-              <img class="card-img-top img-fluid img-tumbnail" src="assets/images/sprite.jpg" alt="Sprite">
+              <img class="card-img-top img-fluid img-tumbnail" src="assets/images/cokezerologo.jpeg" alt="Coke Zero">
             </a>
             <div class="card-body">
-              <h3>Sprite</h3>
+              <h3>Coke Zero</h3>
               <p>First introduced in 1961, crisp, refreshing, clean-tasting Sprite is now the world's leading lemon and lime flavoured soft drink and is sold in more than 190 different countries.
                 Sprite Zero offers the delicious lemon lime taste of Sprite without the sugar or calories. </p>
               <a href="#" class="btn btn-primary">Find out more ...</a>
@@ -163,14 +167,14 @@
           </div>
         </div>
 
-         <!--dr pepper column-->
+         <!--costa column-->
          <div class="col-sm-4">
           <div class="card">
             <a href="#">
-              <img class="card-img-top img-fluid img-tumbnail" src="assets/images/dr_pepper.jpg" alt="Dr Pepper">
+              <img class="card-img-top img-fluid img-tumbnail" src="assets/images/costalogo.jpg" alt="Costa">
             </a>
             <div class="card-body">
-              <h3>Dr Pepper</h3>
+              <h3>Costa Coffee</h3>
               <p>Dr Pepper's unique, sparkling blend of 23 fruit flavours has been around for well over a century and it's still the same, with that distinctive flavour you just can't quite put your tongue on.
                 The distinctive, bold taste of Dr Pepper has been popular ever since.</p>
               <a href="#" class="btn btn-primary">Find out more ...</a>
@@ -245,15 +249,8 @@
                 </div>
                 <div class="card-body">
                     <h4 class="card-title">3D Image Gallery</h4>
-                    <a href="coke.html">
-                        <img class="card-img-top img-fluid img-thumbnail" src="assets/images/fantacan.jpg" alt="Coca Cola">
-                    </a>
-                    <a href="sprite.html">
-                        <img class="card-img-top img-fluid img-thumbnail" src="assets/images/cokezero.jpg" alt="Coca Cola">
-                    </a>
-                    <a href="pepper.html">
-                        <img class="card-img-top img-fluid img-thumbnail" src="assets/images/costacoffee.jpg" alt="Coca Cola">
-                    </a>
+                    <!-- gallery genertaed using php js and jquery -->
+                    <div class="gallery" id="gallery_fanta"></div>
                     <p class="card-text">These 3D images of the Fanta can, Coke Zero bottle and Costa Coffee cup are rendered in Cinema4D Picture Viewer</p>
                 </div>
             </div>
@@ -491,5 +488,6 @@
     <script src="js/jquery-3.4.1.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.js"></script>
+    <script src="js/gallery_generator.js"></script>
   </body>
 </html>

@@ -39,7 +39,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* CSS rules for the main_text IDs */
 #main_3d_image {
-    background-image: url(../assets/images/main_3D_538.jpg);
+    background-image: url(/assets/images/main_3D.jpg);
     background-repeat: no-repeat;
     height: 200px;
 }
@@ -68,6 +68,30 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0px;
     line-height: 1.2;
 } 
+
+.img-thumbnail {
+    padding: 0.25rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    max-width: 100%;
+    height: auto;
+
+
+}
+
+.gallery .img-thumbnail{
+    background-color: violet;
+    padding: 0.25rem;
+    margin: 5px;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    max-width: 43%;
+    height: auto;
+
+}
 
 .card {
     border: 1px solid rgba(0,0,0,0.2);
@@ -214,7 +238,7 @@ h1, h2, h3, h4, h5, h6 {
    /* .dropdown-menu {
         text-align: -webkit-left;
         background-color: #b6e7f3;
-        margin-top: 200px; /* Experiment to move the dropdown menu down */
+        margin-top: 200px; /* Experiment to move the dropdown menu down 
     }
 
    /* .dropdown-menu .dropdown-item {
@@ -375,7 +399,7 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     #main_3d_image {
-        background-image: url(../assets/images/main_3D_768.jpg);
+        background-image: url(../assets/images/main_3D.jpg);
         background-repeat: no-repeat;
         height: 288px;
     }
@@ -443,7 +467,7 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     #main_3d_image {
-        background-image: url(../assets/images/main_3D_970.jpg);
+        background-image: url(../assets/images/main_3D.jpg);
         background-repeat: no-repeat;
         height: 363px;
     }
@@ -572,7 +596,7 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     #main_3d_image {
-        background-image: url(../assets/images/main_3D_1400.jpg);
+        background-image: url(../assets/images/main_3D.jpg);
         background-repeat: no-repeat;
         height: 400px;
     }
@@ -693,7 +717,7 @@ h1, h2, h3, h4, h5, h6 {
 */
 @media (min-width: 1200px) {   
     #main_3d_image {
-        background-image: url(../assets/images/main_3D_1400.jpg);
+        background-image: url(../assets/images/main_3D.jpg);
         background-repeat: no-repeat;
         height: 524px;
     }
